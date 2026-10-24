@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python cache & virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+api/.astropy_cache/
+.astropy_cache/
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
